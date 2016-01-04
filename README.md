@@ -6,7 +6,8 @@ Designed for the milling machine (2 sided but no real vias, using through hole c
 # Boards
 
  * Mainboard
- * Solenoid extender
+ * 8 ch. Input extension
+ * 8 ch. Solenoid extension
  
 # Hardware features
 
