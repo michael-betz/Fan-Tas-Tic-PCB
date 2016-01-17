@@ -127,7 +127,7 @@ U 1 1 566F373E
 P 9400 1300
 F 0 "F1" H 9500 1350 50  0000 C CNN
 F 1 "FUSE" H 9300 1250 50  0000 C CNN
-F 2 "Fuse_Holders_and_Fuses:Fuseholder5x20_horiz_open_lateral_Type-II" H 9400 1300 50  0001 C CNN
+F 2 "Fuse_Holders_and_Fuses:Fuseholder5x20_horiz_open_universal_Type-III" H 9400 1300 50  0001 C CNN
 F 3 "" H 9400 1300 50  0000 C CNN
 	1    9400 1300
 	1    0    0    -1  
@@ -439,7 +439,7 @@ U 1 1 56721A6F
 P 14450 950
 F 0 "F2" H 14550 1000 50  0000 C CNN
 F 1 "FUSE" H 14350 900 50  0000 C CNN
-F 2 "Fuse_Holders_and_Fuses:Fuseholder5x20_horiz_open_lateral_Type-II" H 14450 950 50  0001 C CNN
+F 2 "Fuse_Holders_and_Fuses:Fuseholder5x20_horiz_open_universal_Type-III" H 14450 950 50  0001 C CNN
 F 3 "" H 14450 950 50  0000 C CNN
 	1    14450 950 
 	1    0    0    -1  
@@ -543,7 +543,7 @@ U 1 1 56723F89
 P 14450 2950
 F 0 "F3" H 14550 3000 50  0000 C CNN
 F 1 "FUSE" H 14350 2900 50  0000 C CNN
-F 2 "Fuse_Holders_and_Fuses:Fuseholder5x20_horiz_open_lateral_Type-II" H 14450 2950 50  0001 C CNN
+F 2 "Fuse_Holders_and_Fuses:Fuseholder5x20_horiz_open_universal_Type-III" H 14450 2950 50  0001 C CNN
 F 3 "" H 14450 2950 50  0000 C CNN
 	1    14450 2950
 	1    0    0    -1  
@@ -1746,7 +1746,7 @@ U 1 1 56733053
 P 2000 2900
 F 0 "F4" H 2100 2950 50  0000 C CNN
 F 1 "10A" H 1900 2850 50  0000 C CNN
-F 2 "Fuse_Holders_and_Fuses:Fuseholder5x20_horiz_open_lateral_Type-II" H 2000 2900 50  0001 C CNN
+F 2 "Fuse_Holders_and_Fuses:Fuseholder5x20_horiz_open_universal_Type-III" H 2000 2900 50  0001 C CNN
 F 3 "" H 2000 2900 50  0000 C CNN
 	1    2000 2900
 	1    0    0    -1  
