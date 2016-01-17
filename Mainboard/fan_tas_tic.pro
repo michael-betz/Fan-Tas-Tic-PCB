@@ -1,6 +1,6 @@
-update=Mit 16 Dez 2015 01:40:49 CET
+update=Son 17 Jan 2016 01:37:51 CET
 version=1
-last_client=kicad
+last_client=eeschema
 [pcbnew]
 version=1
 LastNetListRead=
@@ -65,7 +65,7 @@ PageLayoutDescrFile=
 PlotDirectoryName=pdf/
 SubpartIdSeparator=0
 SubpartFirstId=65
-NetFmtName=
+NetFmtName=Pcbnew
 SpiceForceRefPrefix=0
 SpiceUseNetNumbers=0
 LabSize=60
