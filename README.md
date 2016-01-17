@@ -27,5 +27,14 @@ Designed for the milling machine (2 sided but no real vias, using through hole c
 
 # Solenoid Board
  * 8 ch. Solenoid extension 
- * ... in progress ... 
-
+ * ... in progress ...
+ 
+# About the components
+ * SMD resistors / capacitors = 0805
+ * Switch matrix driver: [TPIC6B595](http://www.ti.com/lit/ds/symlink/tpic6b595.pdf) (eBay)
+ * GPIO extender: [PCF8574](http://www.ti.com/lit/ds/symlink/pcf8574.pdf) (eBay)
+ * Dual power mosfet driver: [UCC27524](http://www.ti.com/lit/ds/symlink/ucc27524.pdf)
+ * Power mosfets: [IRL640](http://www.vishay.com/docs/91305/91305.pdf)
+ * Signal mosfet for level conversion: [BSS138](https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf)
+ * 8 pin solenoid and 4 pin power connectors: [HT396](https://www.google.com/search?btnG=1&pws=0&q=Green+HT396+3.96mm+Straight+Pluggable+Screw+Terminal+Block+Connector&gws_rd=cr,ssl&ei=fLGbVpy5GMX4apzWrtgK)
+ * 8 pin switch-matrix and 4 pin I2C connectors: [KF2510](https://www.google.com/search?btnG=1&pws=0&q=KF2510+2P-10P+2.54mm+Straight+/+Right-Angle+Connector+Header%2BTerminal%2BHousing&gws_rd=cr,ssl&ei=HrKbVpHDFoKua7iAu-AK)
