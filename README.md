@@ -5,7 +5,7 @@ Designed for the milling machine (2 sided but no real vias, using through hole c
  
 # Mainboard
 
-[[https://raw.githubusercontent.com/yetifrisstlama/Fan-Tas-Tic-PCB/master/Mainboard_3d.jpg|alt=3D view of the Mainboard]]
+![3D view of the Mainboard](https://raw.githubusercontent.com/yetifrisstlama/Fan-Tas-Tic-PCB/master/Mainboard_3d.jpg)
 
  * Based on TM4C123GXL evaluation board
  * 8x8 Switch matrix inputs (Operating on 12 V)
@@ -20,7 +20,7 @@ Designed for the milling machine (2 sided but no real vias, using through hole c
  
 # Input Board
 
-[[https://raw.githubusercontent.com/yetifrisstlama/Fan-Tas-Tic-PCB/master/InputExtension_3d.jpg|alt=3D view of the input extension board]]
+![3D view of the input extension board](https://raw.githubusercontent.com/yetifrisstlama/Fan-Tas-Tic-PCB/master/InputExtension_3d.jpg)
 
  * 8 ch. Input extension
  * ... in progress ..
