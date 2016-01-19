@@ -1165,7 +1165,7 @@ F 3 "" H 2650 1150 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text Notes 11900 10550 0    60   ~ 0
-Main Pinball controller for Fan-Tas-Tic\n* TI TIVA C brain\n* 4 Solenoid drivers with PWM control\n* 8 Solenoid drivers (Software PWM only)\n* 8 x 8 Switch Matrix\n* 4 x I2C Bus for extension\n* 4 x WS2811 drivers for LEDs\n
+Main Pinball controller for Fan-Tas-Tic\n* TI TIVA C brain\n* 4 Solenoid drivers with PWM control\n* 8 Solenoid drivers (Software PWM only)\n* 8 x 8 Switch Matrix\n* 4 x I2C Bus for extension\n* 3 x WS2811 drivers for LEDs\n
 $Comp
 L Jumper_NO_Small JP1
 U 1 1 5672BE8D
