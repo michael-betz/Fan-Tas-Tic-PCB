@@ -106,8 +106,8 @@ F 3 "" H 10050 5150 50  0000 C CNN
 $EndComp
 Text Notes 10350 9500 0    60   ~ 0
 Row Out\ndrive only one of the outputs low\nInit: keep Ser_In and RCK low, pulse SRCK 8 times\nEnable Drain0:  keep Ser_in and RCK high, pulse SRCK, pulse Ser_in and RCK\n      ...  from now on, keep Ser_in and RCK low ...\nEnable Drain1:  pulse SRCK, pulse Ser_in and RCK
-Text Notes 9850 4600 0    60   ~ 0
-Row In
+Text Notes 10200 4650 0    60   ~ 0
+Row In\n(Black shrink wrap on cable)
 $Comp
 L CONN_01X08 P7
 U 1 1 566F2C02
@@ -1165,7 +1165,7 @@ F 3 "" H 2650 1150 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text Notes 11900 10550 0    60   ~ 0
-Main Pinball controller for Fan-Tas-Tic\n* TI TIVA C brain\n* 4 Solenoid drivers with PWM control\n* 8 Solenoid drivers (Software PWM only)\n* 8 x 8 Switch Matrix\n* 4 x I2C Bus for extension\n* 4 x WS2811 drivers for LEDs\n
+Main Pinball controller for Fan-Tas-Tic\n* TI TIVA C brain\n* 4 Solenoid drivers with PWM control\n* 8 Solenoid drivers (Software PWM only)\n* 8 x 8 Switch Matrix\n* 4 x I2C Bus for extension\n* 3 x WS2811 drivers for LEDs\n
 $Comp
 L Jumper_NO_Small JP1
 U 1 1 5672BE8D
@@ -2507,4 +2507,6 @@ Wire Wire Line
 Connection ~ 3600 2800
 Connection ~ 3850 2800
 Connection ~ 3050 1450
+Text Notes 10200 5500 0    60   ~ 0
+Blue\nWhite\nYellow\nGreen\nPurple\nBlack\nBrown\nOrange
 $EndSCHEMATC
