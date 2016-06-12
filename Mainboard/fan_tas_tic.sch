@@ -105,10 +105,10 @@ F 3 "" H 10050 5150 50  0000 C CNN
 	1    10050 5150
 	1    0    0    -1  
 $EndComp
-Text Notes 10350 9500 0    60   ~ 0
+Text Notes 8800 8400 0    60   ~ 0
 Row Out\ndrive only one of the outputs low\nInit: keep Ser_In and RCK low, pulse SRCK 8 times\nEnable Drain0:  keep Ser_in and RCK high, pulse SRCK, pulse Ser_in and RCK\n      ...  from now on, keep Ser_in and RCK low ...\nEnable Drain1:  pulse SRCK, pulse Ser_in and RCK
-Text Notes 9850 4600 0    60   ~ 0
-Row In
+Text Notes 10200 4650 0    60   ~ 0
+Row In\n(Black shrink wrap on cable)
 $Comp
 L CONN_01X08 P7
 U 1 1 566F2C02
@@ -1962,6 +1962,7 @@ Wire Wire Line
 Wire Wire Line
 	5600 3000 5600 1700
 Wire Wire Line
+<<<<<<< HEAD
 	5700 3100 5700 1900
 Wire Wire Line
 	3400 3100 4000 3100
@@ -2554,10 +2555,13 @@ Wire Wire Line
 Wire Wire Line
 	3850 3000 3850 2800
 Wire Wire Line
+=======
+>>>>>>> dba2311b7c108a9eb6fb05b99b107e0eb35ab87e
 	3850 2800 3400 2800
 Connection ~ 3600 2800
 Connection ~ 3850 2800
 Connection ~ 3050 1450
+<<<<<<< HEAD
 Wire Wire Line
 	10200 1300 10200 1300
 Wire Wire Line
@@ -2852,4 +2856,12 @@ F 3 "" H 1450 2300 50  0000 C CNN
 	1    1450 2300
 	1    0    0    -1  
 $EndComp
+=======
+Text Notes 10200 5500 0    60   ~ 0
+Blue\nWhite\nYellow\nGreen\nPurple\nBlack\nBrown\nOrange
+Text Notes 10100 9650 0    60   ~ 0
+Blue\nWhite\nYellow\nGreen\nPurple\nBlack\nBrown\nOrange
+Text Notes 10100 8850 0    60   ~ 0
+Row\n(cable with no shrink wrap)
+>>>>>>> dba2311b7c108a9eb6fb05b99b107e0eb35ab87e
 $EndSCHEMATC
