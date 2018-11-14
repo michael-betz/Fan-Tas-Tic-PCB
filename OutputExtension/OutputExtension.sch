@@ -17,23 +17,23 @@ $EndDescr
 $Comp
 L OutputExtension-rescue:C-OutputExtension-rescue C3
 U 1 1 568473C2
-P 3350 1250
-F 0 "C3" H 3375 1350 50  0000 L CNN
-F 1 "1u" H 3375 1150 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 3388 1100 50  0001 C CNN
-F 3 "" H 3350 1250 50  0000 C CNN
-	1    3350 1250
+P 3550 1250
+F 0 "C3" H 3575 1350 50  0000 L CNN
+F 1 "1u" H 3575 1150 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 3588 1100 50  0001 C CNN
+F 3 "" H 3550 1250 50  0000 C CNN
+	1    3550 1250
 	1    0    0    -1  
 $EndComp
 $Comp
 L OutputExtension-rescue:+24V-OutputExtension-rescue #PWR08
 U 1 1 568473C4
-P 3350 1050
-F 0 "#PWR08" H 3350 900 50  0001 C CNN
-F 1 "+24V" H 3350 1190 50  0000 C CNN
-F 2 "" H 3350 1050 50  0000 C CNN
-F 3 "" H 3350 1050 50  0000 C CNN
-	1    3350 1050
+P 3550 1000
+F 0 "#PWR08" H 3550 850 50  0001 C CNN
+F 1 "+24V" H 3550 1140 50  0000 C CNN
+F 2 "" H 3550 1000 50  0000 C CNN
+F 3 "" H 3550 1000 50  0000 C CNN
+	1    3550 1000
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -60,28 +60,26 @@ F 3 "" H 7650 1800 50  0000 C CNN
 	1    7650 1800
 	1    0    0    -1  
 $EndComp
-Text Notes 5450 1050 0    60   ~ 0
-Onboard Power channels
 $Comp
 L OutputExtension-rescue:FUSE-OutputExtension-rescue F1
 U 1 1 568473CC
-P 7100 950
-F 0 "F1" H 7200 1000 50  0000 C CNN
-F 1 "FUSE" H 7000 900 50  0000 C CNN
-F 2 "Fuse_Holders_and_Fuses:Fuseholder5x20_horiz_open_lateral_Type-II" H 7100 950 50  0001 C CNN
-F 3 "" H 7100 950 50  0000 C CNN
-	1    7100 950 
+P 3200 1050
+F 0 "F1" H 3300 1100 50  0000 C CNN
+F 1 "FUSE" H 3100 1000 50  0000 C CNN
+F 2 "Fuse_Holders_and_Fuses:Fuseholder5x20_horiz_open_lateral_Type-II" H 3200 1050 50  0001 C CNN
+F 3 "" H 3200 1050 50  0000 C CNN
+	1    3200 1050
 	1    0    0    -1  
 $EndComp
 $Comp
 L OutputExtension-rescue:CP-OutputExtension-rescue C5
 U 1 1 568473CD
-P 7350 2400
-F 0 "C5" H 7375 2500 50  0000 L CNN
-F 1 "470 uF" H 7375 2300 50  0000 L CNN
-F 2 "Capacitors_ThroughHole:C_Radial_D10_L16_P5" H 7388 2250 50  0001 C CNN
-F 3 "" H 7350 2400 50  0000 C CNN
-	1    7350 2400
+P 8150 1800
+F 0 "C5" H 8175 1900 50  0000 L CNN
+F 1 "470 uF" V 7950 1600 50  0000 L CNN
+F 2 "Capacitors_ThroughHole:C_Radial_D10_L16_P5" H 8188 1650 50  0001 C CNN
+F 3 "" H 8150 1800 50  0000 C CNN
+	1    8150 1800
 	1    0    0    -1  
 $EndComp
 $Sheet
@@ -89,41 +87,19 @@ S 6150 1150 700  250
 U 568473CE
 F0 "powerChannel0" 60
 F1 "powerChannel.sch" 60
-F2 "GND" B L 6150 1350 60 
-F3 "CTRL" I L 6150 1250 60 
-F4 "DRAIN" O R 6850 1250 50 
+F2 "CTRL" I L 6150 1250 60 
+F3 "DRAIN" O R 6850 1350 50 
+F4 "PWR" O R 6850 1250 50 
 $EndSheet
-$Comp
-L OutputExtension-rescue:+24V-OutputExtension-rescue #PWR014
-U 1 1 568473D2
-P 6800 950
-F 0 "#PWR014" H 6800 800 50  0001 C CNN
-F 1 "+24V" H 6800 1090 50  0000 C CNN
-F 2 "" H 6800 950 50  0000 C CNN
-F 3 "" H 6800 950 50  0000 C CNN
-	1    6800 950 
-	1    0    0    -1  
-$EndComp
-$Comp
-L OutputExtension-rescue:GND-OutputExtension-rescue #PWR012
-U 1 1 568473D3
-P 6050 2550
-F 0 "#PWR012" H 6050 2300 50  0001 C CNN
-F 1 "GND" H 6050 2400 50  0000 C CNN
-F 2 "" H 6050 2550 50  0000 C CNN
-F 3 "" H 6050 2550 50  0000 C CNN
-	1    6050 2550
-	1    0    0    -1  
-$EndComp
 $Comp
 L OutputExtension-rescue:GND-OutputExtension-rescue #PWR016
 U 1 1 568473D4
-P 7350 2550
-F 0 "#PWR016" H 7350 2300 50  0001 C CNN
-F 1 "GND" H 7350 2400 50  0000 C CNN
-F 2 "" H 7350 2550 50  0000 C CNN
-F 3 "" H 7350 2550 50  0000 C CNN
-	1    7350 2550
+P 8150 1950
+F 0 "#PWR016" H 8150 1700 50  0001 C CNN
+F 1 "GND" H 8150 1800 50  0000 C CNN
+F 2 "" H 8150 1950 50  0000 C CNN
+F 3 "" H 8150 1950 50  0000 C CNN
+	1    8150 1950
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -137,61 +113,26 @@ F 3 "" H 7650 3800 50  0000 C CNN
 	1    7650 3800
 	1    0    0    -1  
 $EndComp
-Text Notes 5550 3050 0    60   ~ 0
-Onboard Power channels
-$Comp
-L OutputExtension-rescue:FUSE-OutputExtension-rescue F2
-U 1 1 568473D6
-P 7100 2950
-F 0 "F2" H 7200 3000 50  0000 C CNN
-F 1 "FUSE" H 7000 2900 50  0000 C CNN
-F 2 "Fuse_Holders_and_Fuses:Fuseholder5x20_horiz_open_lateral_Type-II" H 7100 2950 50  0001 C CNN
-F 3 "" H 7100 2950 50  0000 C CNN
-	1    7100 2950
-	1    0    0    -1  
-$EndComp
 $Comp
 L OutputExtension-rescue:CP-OutputExtension-rescue C6
 U 1 1 568473D7
-P 7350 4400
-F 0 "C6" H 7375 4500 50  0000 L CNN
-F 1 "470 uF" H 7375 4300 50  0000 L CNN
-F 2 "Capacitors_ThroughHole:C_Radial_D10_L16_P5" H 7388 4250 50  0001 C CNN
-F 3 "" H 7350 4400 50  0000 C CNN
-	1    7350 4400
-	1    0    0    -1  
-$EndComp
-$Comp
-L OutputExtension-rescue:+24V-OutputExtension-rescue #PWR015
-U 1 1 568473DC
-P 6800 2950
-F 0 "#PWR015" H 6800 2800 50  0001 C CNN
-F 1 "+24V" H 6800 3090 50  0000 C CNN
-F 2 "" H 6800 2950 50  0000 C CNN
-F 3 "" H 6800 2950 50  0000 C CNN
-	1    6800 2950
-	1    0    0    -1  
-$EndComp
-$Comp
-L OutputExtension-rescue:GND-OutputExtension-rescue #PWR013
-U 1 1 568473DD
-P 6050 4550
-F 0 "#PWR013" H 6050 4300 50  0001 C CNN
-F 1 "GND" H 6050 4400 50  0000 C CNN
-F 2 "" H 6050 4550 50  0000 C CNN
-F 3 "" H 6050 4550 50  0000 C CNN
-	1    6050 4550
+P 8100 3800
+F 0 "C6" H 8125 3900 50  0000 L CNN
+F 1 "470 uF" H 8125 3700 50  0000 L CNN
+F 2 "Capacitors_ThroughHole:C_Radial_D10_L16_P5" H 8138 3650 50  0001 C CNN
+F 3 "" H 8100 3800 50  0000 C CNN
+	1    8100 3800
 	1    0    0    -1  
 $EndComp
 $Comp
 L OutputExtension-rescue:GND-OutputExtension-rescue #PWR017
 U 1 1 568473DE
-P 7350 4550
-F 0 "#PWR017" H 7350 4300 50  0001 C CNN
-F 1 "GND" H 7350 4400 50  0000 C CNN
-F 2 "" H 7350 4550 50  0000 C CNN
-F 3 "" H 7350 4550 50  0000 C CNN
-	1    7350 4550
+P 8100 3950
+F 0 "#PWR017" H 8100 3700 50  0001 C CNN
+F 1 "GND" H 8100 3800 50  0000 C CNN
+F 2 "" H 8100 3950 50  0000 C CNN
+F 3 "" H 8100 3950 50  0000 C CNN
+	1    8100 3950
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -298,8 +239,6 @@ Text Label 1800 2150 2    60   ~ 0
 I2C_SDA
 Text Label 1800 2050 2    60   ~ 0
 I2C_SCL
-Text Notes 4600 7300 0    60   ~ 0
-Main Pinball controller for Fan-Tas-Tic\n* TI TIVA C brain\n* 4 Solenoid drivers with PWM control\n* 8 Solenoid drivers (Software PWM only)\n* 8 x 8 Switch Matrix\n* 4 x I2C Bus for extension\n* 4 x WS2811 drivers for LEDs\n
 $Comp
 L OutputExtension-rescue:PWR_FLAG-OutputExtension-rescue #FLG02
 U 1 1 5684741F
@@ -328,7 +267,7 @@ U 1 1 56847434
 P 3350 4850
 F 0 "R2" V 3430 4850 50  0000 C CNN
 F 1 "220" V 3350 4850 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 3280 4850 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 3280 4850 50  0001 C CNN
 F 3 "" H 3350 4850 50  0000 C CNN
 	1    3350 4850
 	0    1    1    0   
@@ -361,7 +300,7 @@ U 1 1 56847439
 P 3350 4350
 F 0 "R1" V 3430 4350 50  0000 C CNN
 F 1 "2200" V 3350 4350 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 3280 4350 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 3280 4350 50  0001 C CNN
 F 3 "" H 3350 4350 50  0000 C CNN
 	1    3350 4350
 	0    1    1    0   
@@ -433,63 +372,14 @@ F 3 "" H 2900 2100 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3350 1050 3350 1100
+	3550 1000 3550 1050
 Wire Wire Line
 	2850 1250 2850 1350
 Connection ~ 2850 1350
 Wire Wire Line
 	2850 1150 2850 1050
-Connection ~ 3350 1050
-Wire Wire Line
-	7350 950  7350 1450
 Wire Wire Line
 	7350 1450 7450 1450
-Wire Wire Line
-	7350 2050 7450 2050
-Connection ~ 7350 1450
-Wire Wire Line
-	7450 1850 7350 1850
-Connection ~ 7350 1850
-Wire Wire Line
-	7450 1650 7350 1650
-Connection ~ 7350 1650
-Connection ~ 7350 2050
-Wire Wire Line
-	6850 1250 7200 1250
-Wire Wire Line
-	7200 1250 7200 1550
-Wire Wire Line
-	7200 1550 7450 1550
-Wire Wire Line
-	7450 1750 7200 1750
-Wire Wire Line
-	7200 1750 7200 1650
-Wire Wire Line
-	7200 1650 6850 1650
-Wire Wire Line
-	7450 1950 7200 1950
-Wire Wire Line
-	7200 1950 7200 2050
-Wire Wire Line
-	7200 2050 6850 2050
-Wire Wire Line
-	7450 2150 7200 2150
-Wire Wire Line
-	7200 2150 7200 2450
-Wire Wire Line
-	7200 2450 6850 2450
-Wire Wire Line
-	6150 1350 6050 1350
-Wire Wire Line
-	6050 1350 6050 1750
-Wire Wire Line
-	6050 2550 6150 2550
-Wire Wire Line
-	6150 2150 6050 2150
-Connection ~ 6050 2150
-Wire Wire Line
-	6150 1750 6050 1750
-Connection ~ 6050 1750
 Wire Wire Line
 	5200 1650 6150 1650
 Wire Wire Line
@@ -499,55 +389,7 @@ Wire Wire Line
 Wire Wire Line
 	5300 2050 6150 2050
 Wire Wire Line
-	7350 2950 7350 3450
-Wire Wire Line
 	7350 3450 7450 3450
-Wire Wire Line
-	7350 4050 7450 4050
-Connection ~ 7350 3450
-Wire Wire Line
-	7450 3850 7350 3850
-Connection ~ 7350 3850
-Wire Wire Line
-	7450 3650 7350 3650
-Connection ~ 7350 3650
-Connection ~ 7350 4050
-Wire Wire Line
-	6850 3250 7200 3250
-Wire Wire Line
-	7200 3250 7200 3550
-Wire Wire Line
-	7200 3550 7450 3550
-Wire Wire Line
-	7450 3750 7200 3750
-Wire Wire Line
-	7200 3750 7200 3650
-Wire Wire Line
-	7200 3650 6850 3650
-Wire Wire Line
-	7450 3950 7200 3950
-Wire Wire Line
-	7200 3950 7200 4050
-Wire Wire Line
-	7200 4050 6850 4050
-Wire Wire Line
-	7450 4150 7200 4150
-Wire Wire Line
-	7200 4150 7200 4450
-Wire Wire Line
-	7200 4450 6850 4450
-Wire Wire Line
-	6150 3350 6050 3350
-Wire Wire Line
-	6050 3350 6050 3750
-Wire Wire Line
-	6050 4550 6150 4550
-Wire Wire Line
-	6150 4150 6050 4150
-Connection ~ 6050 4150
-Wire Wire Line
-	6150 3750 6050 3750
-Connection ~ 6050 3750
 Wire Wire Line
 	5300 3650 6150 3650
 Wire Wire Line
@@ -593,47 +435,14 @@ Wire Wire Line
 	4100 2450 4250 2450
 Connection ~ 4250 2450
 Wire Wire Line
-	6800 2950 6850 2950
-Wire Wire Line
-	6800 950  6850 950 
-Wire Wire Line
 	3900 4350 3900 4850
 Connection ~ 3900 4850
-Wire Wire Line
-	2850 1400 3350 1400
-Wire Wire Line
-	2850 1050 3350 1050
 Connection ~ 2850 1050
-Connection ~ 2850 1400
 Connection ~ 2250 1950
 Wire Wire Line
 	1500 1950 1550 1950
 Wire Wire Line
 	2850 1350 2850 1400
-Wire Wire Line
-	7350 1450 7350 1650
-Wire Wire Line
-	7350 1850 7350 2050
-Wire Wire Line
-	7350 1650 7350 1850
-Wire Wire Line
-	7350 2050 7350 2250
-Wire Wire Line
-	6050 2150 6050 2550
-Wire Wire Line
-	6050 1750 6050 2150
-Wire Wire Line
-	7350 3450 7350 3650
-Wire Wire Line
-	7350 3850 7350 4050
-Wire Wire Line
-	7350 3650 7350 3850
-Wire Wire Line
-	7350 4050 7350 4250
-Wire Wire Line
-	6050 4150 6050 4550
-Wire Wire Line
-	6050 3750 6050 4150
 Wire Wire Line
 	4250 2450 4300 2450
 Wire Wire Line
@@ -793,66 +602,196 @@ Connection ~ 1950 2150
 Wire Wire Line
 	1950 2150 2400 2150
 $Sheet
-S 6150 1550 700  250 
-U 5BF99CAF
-F0 "powerChannel1" 60
-F1 "powerChannel.sch" 60
-F2 "GND" B L 6150 1750 60 
-F3 "CTRL" I L 6150 1650 60 
-F4 "DRAIN" O R 6850 1650 50 
-$EndSheet
-$Sheet
-S 6150 1950 700  250 
-U 5BFA00DD
-F0 "powerChannel2" 60
-F1 "powerChannel.sch" 60
-F2 "GND" B L 6150 2150 60 
-F3 "CTRL" I L 6150 2050 60 
-F4 "DRAIN" O R 6850 2050 50 
-$EndSheet
-$Sheet
 S 6150 2350 700  250 
 U 5BFA64DD
 F0 "powerChannel3" 60
 F1 "powerChannel.sch" 60
-F2 "GND" B L 6150 2550 60 
-F3 "CTRL" I L 6150 2450 60 
-F4 "DRAIN" O R 6850 2450 50 
+F2 "CTRL" I L 6150 2450 60 
+F3 "DRAIN" O R 6850 2550 50 
+F4 "PWR" O R 6850 2450 50 
 $EndSheet
 $Sheet
 S 6150 3150 700  250 
 U 5BFACA74
 F0 "powerChannel4" 60
 F1 "powerChannel.sch" 60
-F2 "GND" B L 6150 3350 60 
-F3 "CTRL" I L 6150 3250 60 
-F4 "DRAIN" O R 6850 3250 50 
+F2 "CTRL" I L 6150 3250 60 
+F3 "DRAIN" O R 6850 3350 50 
+F4 "PWR" O R 6850 3250 50 
 $EndSheet
 $Sheet
 S 6150 3550 700  250 
 U 5BFACA79
 F0 "powerChannel5" 60
 F1 "powerChannel.sch" 60
-F2 "GND" B L 6150 3750 60 
-F3 "CTRL" I L 6150 3650 60 
-F4 "DRAIN" O R 6850 3650 50 
-$EndSheet
-$Sheet
-S 6150 3950 700  250 
-U 5BFACA7E
-F0 "powerChannel6" 60
-F1 "powerChannel.sch" 60
-F2 "GND" B L 6150 4150 60 
-F3 "CTRL" I L 6150 4050 60 
-F4 "DRAIN" O R 6850 4050 50 
+F2 "CTRL" I L 6150 3650 60 
+F3 "DRAIN" O R 6850 3750 50 
+F4 "PWR" O R 6850 3650 50 
 $EndSheet
 $Sheet
 S 6150 4350 700  250 
 U 5BFACA83
 F0 "powerChannel7" 60
 F1 "powerChannel.sch" 60
-F2 "GND" B L 6150 4550 60 
-F3 "CTRL" I L 6150 4450 60 
-F4 "DRAIN" O R 6850 4450 50 
+F2 "CTRL" I L 6150 4450 60 
+F3 "DRAIN" O R 6850 4550 50 
+F4 "PWR" O R 6850 4450 50 
 $EndSheet
+Wire Wire Line
+	6850 1750 7450 1750
+Wire Wire Line
+	7150 1950 7150 2150
+Wire Wire Line
+	7150 2150 6850 2150
+Wire Wire Line
+	7150 1950 7450 1950
+Wire Wire Line
+	6850 3750 7450 3750
+Wire Wire Line
+	7150 3950 7150 4150
+Wire Wire Line
+	7150 4150 6850 4150
+Wire Wire Line
+	7150 3950 7450 3950
+Wire Wire Line
+	8100 3600 8100 3650
+Wire Wire Line
+	6850 3250 7350 3250
+Wire Wire Line
+	7350 3250 7350 3450
+Wire Wire Line
+	6850 1250 7350 1250
+Wire Wire Line
+	7350 1250 7350 1450
+Wire Wire Line
+	8150 1650 8150 1600
+$Sheet
+S 6150 1550 700  250 
+U 5BF99CAF
+F0 "powerChannel1" 60
+F1 "powerChannel.sch" 60
+F2 "CTRL" I L 6150 1650 60 
+F3 "DRAIN" O R 6850 1750 50 
+F4 "PWR" O R 6850 1650 50 
+$EndSheet
+Wire Wire Line
+	2850 1050 2950 1050
+Wire Wire Line
+	3450 1050 3550 1050
+Connection ~ 3550 1050
+Wire Wire Line
+	3550 1050 3550 1100
+Wire Wire Line
+	2850 1350 2950 1350
+Wire Wire Line
+	2950 1350 2950 1400
+Wire Wire Line
+	2950 1400 3550 1400
+Wire Wire Line
+	6850 1650 7450 1650
+$Sheet
+S 6150 1950 700  250 
+U 5BFA00DD
+F0 "powerChannel2" 60
+F1 "powerChannel.sch" 60
+F2 "CTRL" I L 6150 2050 60 
+F3 "DRAIN" O R 6850 2150 50 
+F4 "PWR" O R 6850 2050 50 
+$EndSheet
+Wire Wire Line
+	7050 1850 7050 2050
+Wire Wire Line
+	7050 2050 6850 2050
+Wire Wire Line
+	7050 1850 7450 1850
+Wire Wire Line
+	7450 2050 7250 2050
+Wire Wire Line
+	7250 2050 7250 2450
+Wire Wire Line
+	7250 2450 6850 2450
+Wire Wire Line
+	7350 2550 7350 2150
+Wire Wire Line
+	7350 2150 7450 2150
+Wire Wire Line
+	6850 2550 7350 2550
+Wire Wire Line
+	7250 1350 7250 1550
+Wire Wire Line
+	6850 1350 7250 1350
+Wire Wire Line
+	7250 1550 7450 1550
+$Comp
+L power:+24V #PWR0101
+U 1 1 5BFEFE3A
+P 8150 1600
+F 0 "#PWR0101" H 8150 1450 50  0001 C CNN
+F 1 "+24V" H 8165 1773 50  0000 C CNN
+F 2 "" H 8150 1600 50  0001 C CNN
+F 3 "" H 8150 1600 50  0001 C CNN
+	1    8150 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+24V #PWR0102
+U 1 1 5BFF4DB4
+P 8100 3600
+F 0 "#PWR0102" H 8100 3450 50  0001 C CNN
+F 1 "+24V" H 8115 3773 50  0000 C CNN
+F 2 "" H 8100 3600 50  0001 C CNN
+F 3 "" H 8100 3600 50  0001 C CNN
+	1    8100 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6850 3650 7450 3650
+Wire Wire Line
+	7250 3350 7250 3550
+Wire Wire Line
+	6850 3350 7250 3350
+Wire Wire Line
+	7250 3550 7450 3550
+$Sheet
+S 6150 3950 700  250 
+U 5BFACA7E
+F0 "powerChannel6" 60
+F1 "powerChannel.sch" 60
+F2 "CTRL" I L 6150 4050 60 
+F3 "DRAIN" O R 6850 4150 50 
+F4 "PWR" O R 6850 4050 50 
+$EndSheet
+Wire Wire Line
+	7050 3850 7050 4050
+Wire Wire Line
+	7050 4050 6850 4050
+Wire Wire Line
+	7050 3850 7450 3850
+Wire Wire Line
+	7450 4050 7250 4050
+Wire Wire Line
+	7250 4050 7250 4450
+Wire Wire Line
+	7250 4450 6850 4450
+Wire Wire Line
+	7350 4550 7350 4150
+Wire Wire Line
+	7350 4150 7450 4150
+Wire Wire Line
+	6850 4550 7350 4550
+$Comp
+L OutputExtension-rescue:PWR_FLAG-OutputExtension-rescue #FLG0101
+U 1 1 5C00F844
+P 3900 1000
+F 0 "#FLG0101" H 3900 1095 50  0001 C CNN
+F 1 "PWR_FLAG" H 3900 1180 50  0000 C CNN
+F 2 "" H 3900 1000 50  0000 C CNN
+F 3 "" H 3900 1000 50  0000 C CNN
+	1    3900 1000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3900 1000 3900 1050
+Wire Wire Line
+	3900 1050 3550 1050
 $EndSCHEMATC

@@ -1,11 +1,33 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# Device_Jumper_NC_Dual
+# Device:D_Schottky
 #
-DEF Device_Jumper_NC_Dual JP 0 30 Y N 1 F N
+DEF Device:D_Schottky D 0 40 N N 1 F N
+F0 "D" 0 100 50 H V C CNN
+F1 "Device:D_Schottky" 0 -100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ TO-???*
+ *_Diode_*
+ *SingleDiode*
+ D_*
+$ENDFPLIST
+DRAW
+P 2 0 1 0 50 0 -50 0 N
+P 4 0 1 8 50 50 50 -50 -50 0 50 50 N
+P 6 0 1 8 -75 25 -75 50 -50 50 -50 -50 -25 -50 -25 -25 N
+X K 1 -150 0 100 R 50 50 1 1 P
+X A 2 150 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Device:Jumper_NC_Dual
+#
+DEF Device:Jumper_NC_Dual JP 0 30 Y N 1 F N
 F0 "JP" 50 -100 50 H V L CNN
-F1 "Device_Jumper_NC_Dual" 0 100 50 H V C BNN
+F1 "Device:Jumper_NC_Dual" 0 100 50 H V C BNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -20,11 +42,11 @@ X 3 3 250 0 95 L 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
-# Device_Q_NMOS_GSD
+# Device:Q_NMOS_GSD
 #
-DEF Device_Q_NMOS_GSD Q 0 0 Y N 1 F N
+DEF Device:Q_NMOS_GSD Q 0 0 Y N 1 F N
 F0 "Q" 200 50 50 H V L CNN
-F1 "Device_Q_NMOS_GSD" 200 -50 50 H V L CNN
+F1 "Device:Q_NMOS_GSD" 200 -50 50 H V L CNN
 F2 "" 200 100 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -52,11 +74,11 @@ X D 3 100 200 100 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# OutputExtension-rescue_+24V-OutputExtension-rescue
+# OutputExtension-rescue:+24V-OutputExtension-rescue
 #
-DEF OutputExtension-rescue_+24V-OutputExtension-rescue #PWR 0 0 Y Y 1 F P
+DEF OutputExtension-rescue:+24V-OutputExtension-rescue #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "OutputExtension-rescue_+24V-OutputExtension-rescue" 0 140 50 H V C CNN
+F1 "OutputExtension-rescue:+24V-OutputExtension-rescue" 0 140 50 H V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 DRAW
@@ -67,11 +89,11 @@ X +24V 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# OutputExtension-rescue_+5V-OutputExtension-rescue
+# OutputExtension-rescue:+5V-OutputExtension-rescue
 #
-DEF OutputExtension-rescue_+5V-OutputExtension-rescue #PWR 0 0 Y Y 1 F P
+DEF OutputExtension-rescue:+5V-OutputExtension-rescue #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "OutputExtension-rescue_+5V-OutputExtension-rescue" 0 140 50 H V C CNN
+F1 "OutputExtension-rescue:+5V-OutputExtension-rescue" 0 140 50 H V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 DRAW
@@ -82,11 +104,11 @@ X +5V 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# OutputExtension-rescue_C-OutputExtension-rescue
+# OutputExtension-rescue:C-OutputExtension-rescue
 #
-DEF OutputExtension-rescue_C-OutputExtension-rescue C 0 10 N Y 1 F N
+DEF OutputExtension-rescue:C-OutputExtension-rescue C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "OutputExtension-rescue_C-OutputExtension-rescue" 25 -100 50 H V L CNN
+F1 "OutputExtension-rescue:C-OutputExtension-rescue" 25 -100 50 H V L CNN
 F2 "" 38 -150 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
@@ -104,11 +126,11 @@ X ~ 2 0 -150 110 U 40 40 1 1 P
 ENDDRAW
 ENDDEF
 #
-# OutputExtension-rescue_CONN_01X04-OutputExtension-rescue
+# OutputExtension-rescue:CONN_01X04-OutputExtension-rescue
 #
-DEF OutputExtension-rescue_CONN_01X04-OutputExtension-rescue P 0 40 Y N 1 F N
+DEF OutputExtension-rescue:CONN_01X04-OutputExtension-rescue P 0 40 Y N 1 F N
 F0 "P" 0 250 50 H V C CNN
-F1 "OutputExtension-rescue_CONN_01X04-OutputExtension-rescue" 100 0 50 V V C CNN
+F1 "OutputExtension-rescue:CONN_01X04-OutputExtension-rescue" 100 0 50 V V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
@@ -130,11 +152,11 @@ X P4 4 -200 -150 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# OutputExtension-rescue_CONN_01X08-OutputExtension-rescue
+# OutputExtension-rescue:CONN_01X08-OutputExtension-rescue
 #
-DEF OutputExtension-rescue_CONN_01X08-OutputExtension-rescue P 0 40 Y N 1 F N
+DEF OutputExtension-rescue:CONN_01X08-OutputExtension-rescue P 0 40 Y N 1 F N
 F0 "P" 0 450 50 H V C CNN
-F1 "OutputExtension-rescue_CONN_01X08-OutputExtension-rescue" 100 0 50 V V C CNN
+F1 "OutputExtension-rescue:CONN_01X08-OutputExtension-rescue" 100 0 50 V V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
@@ -164,11 +186,11 @@ X P8 8 -200 -350 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# OutputExtension-rescue_CP-OutputExtension-rescue
+# OutputExtension-rescue:CP-OutputExtension-rescue
 #
-DEF OutputExtension-rescue_CP-OutputExtension-rescue C 0 10 N Y 1 F N
+DEF OutputExtension-rescue:CP-OutputExtension-rescue C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "OutputExtension-rescue_CP-OutputExtension-rescue" 25 -100 50 H V L CNN
+F1 "OutputExtension-rescue:CP-OutputExtension-rescue" 25 -100 50 H V L CNN
 F2 "" 38 -150 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
@@ -192,11 +214,11 @@ X ~ 2 0 -150 110 U 40 40 1 1 P
 ENDDRAW
 ENDDEF
 #
-# OutputExtension-rescue_FUSE-OutputExtension-rescue
+# OutputExtension-rescue:FUSE-OutputExtension-rescue
 #
-DEF OutputExtension-rescue_FUSE-OutputExtension-rescue F 0 10 Y Y 1 F N
+DEF OutputExtension-rescue:FUSE-OutputExtension-rescue F 0 10 Y Y 1 F N
 F0 "F" 100 50 50 H V C CNN
-F1 "OutputExtension-rescue_FUSE-OutputExtension-rescue" -100 -50 50 H V C CNN
+F1 "OutputExtension-rescue:FUSE-OutputExtension-rescue" -100 -50 50 H V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 DRAW
@@ -207,11 +229,11 @@ X ~ 2 250 0 100 L 40 40 1 1 I
 ENDDRAW
 ENDDEF
 #
-# OutputExtension-rescue_GND-OutputExtension-rescue
+# OutputExtension-rescue:GND-OutputExtension-rescue
 #
-DEF OutputExtension-rescue_GND-OutputExtension-rescue #PWR 0 0 Y Y 1 F P
+DEF OutputExtension-rescue:GND-OutputExtension-rescue #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "OutputExtension-rescue_GND-OutputExtension-rescue" 0 -150 50 H V C CNN
+F1 "OutputExtension-rescue:GND-OutputExtension-rescue" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 DRAW
@@ -220,11 +242,11 @@ X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# OutputExtension-rescue_LED-OutputExtension-rescue
+# OutputExtension-rescue:LED-OutputExtension-rescue
 #
-DEF OutputExtension-rescue_LED-OutputExtension-rescue D 0 40 Y N 1 F N
+DEF OutputExtension-rescue:LED-OutputExtension-rescue D 0 40 Y N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "OutputExtension-rescue_LED-OutputExtension-rescue" 0 -100 50 H V C CNN
+F1 "OutputExtension-rescue:LED-OutputExtension-rescue" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
@@ -246,11 +268,11 @@ X A 2 200 0 150 L 40 40 1 1 P
 ENDDRAW
 ENDDEF
 #
-# OutputExtension-rescue_PCA9534-OutputExtension-rescue
+# OutputExtension-rescue:PCA9534-OutputExtension-rescue
 #
-DEF OutputExtension-rescue_PCA9534-OutputExtension-rescue U 0 40 Y Y 1 F N
+DEF OutputExtension-rescue:PCA9534-OutputExtension-rescue U 0 40 Y Y 1 F N
 F0 "U" 550 1300 60 H V C CNN
-F1 "OutputExtension-rescue_PCA9534-OutputExtension-rescue" 450 300 60 H V C CNN
+F1 "OutputExtension-rescue:PCA9534-OutputExtension-rescue" 450 300 60 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -274,11 +296,11 @@ X P4 9 850 800 200 L 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
-# OutputExtension-rescue_PWR_FLAG-OutputExtension-rescue
+# OutputExtension-rescue:PWR_FLAG-OutputExtension-rescue
 #
-DEF OutputExtension-rescue_PWR_FLAG-OutputExtension-rescue #FLG 0 0 N N 1 F P
+DEF OutputExtension-rescue:PWR_FLAG-OutputExtension-rescue #FLG 0 0 N N 1 F P
 F0 "#FLG" 0 95 50 H I C CNN
-F1 "OutputExtension-rescue_PWR_FLAG-OutputExtension-rescue" 0 180 50 H V C CNN
+F1 "OutputExtension-rescue:PWR_FLAG-OutputExtension-rescue" 0 180 50 H V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 DRAW
@@ -287,11 +309,11 @@ X pwr 1 0 0 0 U 20 20 0 0 w
 ENDDRAW
 ENDDEF
 #
-# OutputExtension-rescue_Q_NMOS_GDS-OutputExtension-rescue
+# OutputExtension-rescue:Q_NMOS_GDS-OutputExtension-rescue
 #
-DEF OutputExtension-rescue_Q_NMOS_GDS-OutputExtension-rescue Q 0 0 Y N 1 F N
+DEF OutputExtension-rescue:Q_NMOS_GDS-OutputExtension-rescue Q 0 0 Y N 1 F N
 F0 "Q" 300 50 50 H V R CNN
-F1 "OutputExtension-rescue_Q_NMOS_GDS-OutputExtension-rescue" 650 -50 50 H V R CNN
+F1 "OutputExtension-rescue:Q_NMOS_GDS-OutputExtension-rescue" 650 -50 50 H V R CNN
 F2 "" 200 100 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 DRAW
@@ -313,11 +335,11 @@ X S 3 100 -200 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# OutputExtension-rescue_R-OutputExtension-rescue
+# OutputExtension-rescue:R-OutputExtension-rescue
 #
-DEF OutputExtension-rescue_R-OutputExtension-rescue R 0 0 N Y 1 F N
+DEF OutputExtension-rescue:R-OutputExtension-rescue R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "OutputExtension-rescue_R-OutputExtension-rescue" 0 0 50 V V C CNN
+F1 "OutputExtension-rescue:R-OutputExtension-rescue" 0 0 50 V V C CNN
 F2 "" -70 0 50 V V C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
@@ -328,6 +350,34 @@ DRAW
 S -40 -100 40 100 0 1 10 N
 X ~ 1 0 150 50 D 50 50 1 1 P
 X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# power:+24V
+#
+DEF power:+24V #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "power:+24V" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +24V 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power:GND
+#
+DEF power:GND #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "power:GND" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
