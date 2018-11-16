@@ -63,12 +63,12 @@ $EndComp
 $Comp
 L OutputExtension-rescue:FUSE-OutputExtension-rescue F1
 U 1 1 568473CC
-P 3200 1050
-F 0 "F1" H 3300 1100 50  0000 C CNN
-F 1 "FUSE" H 3100 1000 50  0000 C CNN
-F 2 "Fuse_Holders_and_Fuses:Fuseholder5x20_horiz_open_lateral_Type-II" H 3200 1050 50  0001 C CNN
-F 3 "" H 3200 1050 50  0000 C CNN
-	1    3200 1050
+P 3200 950
+F 0 "F1" H 3300 1000 50  0000 C CNN
+F 1 "FUSE" H 3100 900 50  0000 C CNN
+F 2 "myStuff:LBL_FUSE" H 3200 950 50  0001 C CNN
+F 3 "" H 3200 950 50  0000 C CNN
+	1    3200 950 
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -244,7 +244,7 @@ L OutputExtension-rescue:PWR_FLAG-OutputExtension-rescue #FLG02
 U 1 1 5684741F
 P 2850 1050
 F 0 "#FLG02" H 2850 1145 50  0001 C CNN
-F 1 "PWR_FLAG" H 2850 1230 50  0000 C CNN
+F 1 "PWR_FLAG" H 2650 1400 50  0000 C CNN
 F 2 "" H 2850 1050 50  0000 C CNN
 F 3 "" H 2850 1050 50  0000 C CNN
 	1    2850 1050
@@ -794,4 +794,25 @@ Wire Wire Line
 	3900 1000 3900 1050
 Wire Wire Line
 	3900 1050 3550 1050
+$Comp
+L OutputExtension-rescue:FUSE-OutputExtension-rescue F2
+U 1 1 5BED216F
+P 3200 1150
+F 0 "F2" H 3300 1200 50  0000 C CNN
+F 1 "FUSE" H 3100 1100 50  0000 C CNN
+F 2 "myStuff:littlefuse_154_smd" H 3200 1150 50  0001 C CNN
+F 3 "" H 3200 1150 50  0000 C CNN
+	1    3200 1150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2950 1050 2950 950 
+Wire Wire Line
+	2950 1050 2950 1150
+Connection ~ 2950 1050
+Wire Wire Line
+	3450 1050 3450 950 
+Wire Wire Line
+	3450 1050 3450 1150
+Connection ~ 3450 1050
 $EndSCHEMATC
