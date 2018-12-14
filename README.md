@@ -5,7 +5,9 @@ Designed for the milling machine (2 sided but no real vias, using through hole c
 
 # Mainboard
 
-![3D view of the Mainboard](https://raw.githubusercontent.com/yetifrisstlama/Fan-Tas-Tic-PCB/master/Mainboard_3d.jpg)
+![3D view of the Mainboard](https://raw.githubusercontent.com/yetifrisstlama/Fan-Tas-Tic-PCB/master/Mainboard/pdf/fan_tas_tic_3d_7.jpg)
+
+[Schematic](https://raw.githubusercontent.com/yetifrisstlama/Fan-Tas-Tic-PCB/master/Mainboard/pdf/fan_tas_tic.pdf)
 
  * Based on TM4C123GXL evaluation board
  * 8 x 8 Switch matrix inputs (Operating on 12 V)
@@ -45,6 +47,8 @@ The current version of the Mainboard PCB (06/2016) has been tested and worked as
 # Input extension board
 ![3D view of the input extension board](https://raw.githubusercontent.com/yetifrisstlama/Fan-Tas-Tic-PCB/master/InputExtension/pdf/back.jpg)
 
+[Schematic](https://raw.githubusercontent.com/yetifrisstlama/Fan-Tas-Tic-PCB/master/InputExtension/pdf/InputExtension.pdf)
+
  * 8 shiny new input channels for your pinball machine
  * as simple and cheap as it gets
  * read out a zooming 1000 times a second
@@ -54,6 +58,8 @@ About to be built.
 
 # Output extension board
 ![3D view of the output extension board](https://raw.githubusercontent.com/yetifrisstlama/Fan-Tas-Tic-PCB/master/OutputExtension/pdf/front.png)
+
+[Schematic](https://raw.githubusercontent.com/yetifrisstlama/Fan-Tas-Tic-PCB/master/OutputExtension/pdf/OutputExtension.pdf)
 
  * 8 beefy open drain outputs to rock some solenoids
  * BYOM! Bring your own mosfets ... supports TO-220, TO-263 and SOT23 footprints
