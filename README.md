@@ -54,7 +54,7 @@ The current version of the Mainboard PCB (06/2016) has been tested and worked as
  * read out a zooming 1000 times a second
 
 ## Status
-About to be built.
+[Built, tested, works as expected :)](https://yetifrisstlama.github.io/fan-tas-tic-score-reels/)
 
 # Output extension board
 ![3D view of the output extension board](https://raw.githubusercontent.com/yetifrisstlama/Fan-Tas-Tic-PCB/master/OutputExtension/pdf/front.png)
