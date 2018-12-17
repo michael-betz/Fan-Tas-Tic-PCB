@@ -5,14 +5,14 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 9
-Title ""
-Date ""
-Rev ""
-Comp ""
+Title "Fan-Tas-Tic output extension"
+Date "2018-12-16"
+Rev "1"
+Comp "M. Betz"
 Comment1 ""
 Comment2 ""
 Comment3 ""
-Comment4 ""
+Comment4 "8 clunky outputs to drive your solenoids"
 $EndDescr
 $Comp
 L OutputExtension-rescue:C-OutputExtension-rescue C3
@@ -799,7 +799,7 @@ L OutputExtension-rescue:FUSE-OutputExtension-rescue F2
 U 1 1 5BED216F
 P 3200 1150
 F 0 "F2" H 3300 1200 50  0000 C CNN
-F 1 "FUSE" H 3100 1100 50  0000 C CNN
+F 1 "FUSE_DNP" H 3150 1000 50  0000 C CNN
 F 2 "myStuff:littlefuse_154_smd" H 3200 1150 50  0001 C CNN
 F 3 "" H 3200 1150 50  0000 C CNN
 	1    3200 1150
@@ -815,4 +815,6 @@ Wire Wire Line
 Wire Wire Line
 	3450 1050 3450 1150
 Connection ~ 3450 1050
+Text Notes 7000 6800 0    50   ~ 0
+Rev1: Change freeweeling diode footprint to SMC
 $EndSCHEMATC
